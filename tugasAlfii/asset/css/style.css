@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Mengatur font dasar untuk seluruh halaman */
+body {
+    font-family: 'Roboto', sans-serif; /* Font utama untuk teks biasa */
+    padding-top: 56px; /* Tinggi navbar tetap */
+    scroll-behavior: smooth; /* Menambahkan scroll smooth untuk navigasi */
+}
+
+/* Mengatur font untuk judul dan elemen yang lebih menonjol */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* Font untuk judul */
+    font-weight: 700; /* Menebalkan font untuk judul */
+}
+
+/* Menambahkan padding atas pada bagian home untuk menghindari tertutupnya konten oleh navbar fixed */
+#home {
+    padding-top: 70px; /* Memberi jarak lebih di bawah navbar */
+    background-color: #f8f9fa; /* Warna latar belakang untuk bagian home */
+}
+
+/* Menambahkan warna latar belakang untuk bagian carousel */
+#carousel {
+    background-color: #e9ecef; /* Warna latar belakang untuk bagian carousel */
+    padding: 20px 0; /* Memberikan padding vertikal pada bagian carousel */
+}
+
+/* Menambahkan warna latar belakang untuk bagian produk */
+#products {
+    background-color: #ffffff; /* Warna latar belakang untuk bagian produk */
+    padding: 20px 0; /* Memberikan padding vertikal pada bagian produk */
+}
+
+/* Menambahkan warna latar belakang untuk bagian kontak */
+#contact {
+    background-color: #f8f9fa; /* Warna latar belakang untuk bagian kontak */
+    padding: 20px 0; /* Memberikan padding vertikal pada bagian kontak */
+}
+
+/* Mengatur warna latar belakang untuk footer */
+.footer {
+    background-color: #343a40; /* Warna latar belakang untuk footer */
+    color: #ffffff; /* Warna teks footer */
+}
+
+/* Menambahkan margin otomatis pada navbar untuk membuat menu berada di tengah */
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mengatur tinggi gambar carousel */
+.carousel-item img {
+    max-height: 400px; /* Mengatur tinggi maksimum gambar carousel */
+    object-fit: cover; /* Menyesuaikan gambar agar sesuai dengan ukuran kontainer */
+}
+
+/* Mengatur tinggi gambar produk */
+.card-img-top {
+    max-height: 200px; /* Mengatur tinggi maksimum gambar produk */
+    object-fit: cover; /* Menyesuaikan gambar agar sesuai dengan ukuran kontainer */
+}
